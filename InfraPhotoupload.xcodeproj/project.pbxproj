@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54F58FB91F0B1855004BDBC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FB81F0B1855004BDBC7 /* main.m */; };
+		54F58FBC1F0B1855004BDBC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */; };
+		54F58FBF1F0B1855004BDBC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FBE1F0B1855004BDBC7 /* ViewController.m */; };
+		54F58FC21F0B1855004BDBC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F58FC01F0B1855004BDBC7 /* Main.storyboard */; };
+		54F58FC41F0B1855004BDBC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54F58FC31F0B1855004BDBC7 /* Assets.xcassets */; };
+		54F58FC71F0B1855004BDBC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F58FC51F0B1855004BDBC7 /* LaunchScreen.storyboard */; };
+		54F58FD21F0B1855004BDBC7 /* InfraPhotouploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FD11F0B1855004BDBC7 /* InfraPhotouploadTests.m */; };
+		54F58FDD1F0B1855004BDBC7 /* InfraPhotouploadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FDC1F0B1855004BDBC7 /* InfraPhotouploadUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54F58FCE1F0B1855004BDBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F58FAC1F0B1855004BDBC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F58FB31F0B1855004BDBC7;
+			remoteInfo = InfraPhotoupload;
+		};
+		54F58FD91F0B1855004BDBC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54F58FAC1F0B1855004BDBC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54F58FB31F0B1855004BDBC7;
+			remoteInfo = InfraPhotoupload;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54F58FB41F0B1855004BDBC7 /* InfraPhotoupload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfraPhotoupload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F58FB81F0B1855004BDBC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54F58FBA1F0B1855004BDBC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54F58FBD1F0B1855004BDBC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54F58FBE1F0B1855004BDBC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54F58FC11F0B1855004BDBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54F58FC31F0B1855004BDBC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54F58FC61F0B1855004BDBC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54F58FC81F0B1855004BDBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F58FCD1F0B1855004BDBC7 /* InfraPhotouploadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraPhotouploadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F58FD11F0B1855004BDBC7 /* InfraPhotouploadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfraPhotouploadTests.m; sourceTree = "<group>"; };
+		54F58FD31F0B1855004BDBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F58FD81F0B1855004BDBC7 /* InfraPhotouploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraPhotouploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F58FDC1F0B1855004BDBC7 /* InfraPhotouploadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfraPhotouploadUITests.m; sourceTree = "<group>"; };
+		54F58FDE1F0B1855004BDBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54F58FB11F0B1855004BDBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F58FCA1F0B1855004BDBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F58FD51F0B1855004BDBC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54F58FAB1F0B1855004BDBC7 = {
+			isa = PBXGroup;
+			children = (
+				54F58FB61F0B1855004BDBC7 /* InfraPhotoupload */,
+				54F58FD01F0B1855004BDBC7 /* InfraPhotouploadTests */,
+				54F58FDB1F0B1855004BDBC7 /* InfraPhotouploadUITests */,
+				54F58FB51F0B1855004BDBC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54F58FB51F0B1855004BDBC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FB41F0B1855004BDBC7 /* InfraPhotoupload.app */,
+				54F58FCD1F0B1855004BDBC7 /* InfraPhotouploadTests.xctest */,
+				54F58FD81F0B1855004BDBC7 /* InfraPhotouploadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54F58FB61F0B1855004BDBC7 /* InfraPhotoupload */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FBA1F0B1855004BDBC7 /* AppDelegate.h */,
+				54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */,
+				54F58FBD1F0B1855004BDBC7 /* ViewController.h */,
+				54F58FBE1F0B1855004BDBC7 /* ViewController.m */,
+				54F58FC01F0B1855004BDBC7 /* Main.storyboard */,
+				54F58FC31F0B1855004BDBC7 /* Assets.xcassets */,
+				54F58FC51F0B1855004BDBC7 /* LaunchScreen.storyboard */,
+				54F58FC81F0B1855004BDBC7 /* Info.plist */,
+				54F58FB71F0B1855004BDBC7 /* Supporting Files */,
+			);
+			path = InfraPhotoupload;
+			sourceTree = "<group>";
+		};
+		54F58FB71F0B1855004BDBC7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FB81F0B1855004BDBC7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54F58FD01F0B1855004BDBC7 /* InfraPhotouploadTests */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FD11F0B1855004BDBC7 /* InfraPhotouploadTests.m */,
+				54F58FD31F0B1855004BDBC7 /* Info.plist */,
+			);
+			path = InfraPhotouploadTests;
+			sourceTree = "<group>";
+		};
+		54F58FDB1F0B1855004BDBC7 /* InfraPhotouploadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FDC1F0B1855004BDBC7 /* InfraPhotouploadUITests.m */,
+				54F58FDE1F0B1855004BDBC7 /* Info.plist */,
+			);
+			path = InfraPhotouploadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54F58FB31F0B1855004BDBC7 /* InfraPhotoupload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F58FE11F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotoupload" */;
+			buildPhases = (
+				54F58FB01F0B1855004BDBC7 /* Sources */,
+				54F58FB11F0B1855004BDBC7 /* Frameworks */,
+				54F58FB21F0B1855004BDBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfraPhotoupload;
+			productName = InfraPhotoupload;
+			productReference = 54F58FB41F0B1855004BDBC7 /* InfraPhotoupload.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54F58FCC1F0B1855004BDBC7 /* InfraPhotouploadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F58FE41F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotouploadTests" */;
+			buildPhases = (
+				54F58FC91F0B1855004BDBC7 /* Sources */,
+				54F58FCA1F0B1855004BDBC7 /* Frameworks */,
+				54F58FCB1F0B1855004BDBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F58FCF1F0B1855004BDBC7 /* PBXTargetDependency */,
+			);
+			name = InfraPhotouploadTests;
+			productName = InfraPhotouploadTests;
+			productReference = 54F58FCD1F0B1855004BDBC7 /* InfraPhotouploadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54F58FD71F0B1855004BDBC7 /* InfraPhotouploadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54F58FE71F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotouploadUITests" */;
+			buildPhases = (
+				54F58FD41F0B1855004BDBC7 /* Sources */,
+				54F58FD51F0B1855004BDBC7 /* Frameworks */,
+				54F58FD61F0B1855004BDBC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54F58FDA1F0B1855004BDBC7 /* PBXTargetDependency */,
+			);
+			name = InfraPhotouploadUITests;
+			productName = InfraPhotouploadUITests;
+			productReference = 54F58FD81F0B1855004BDBC7 /* InfraPhotouploadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54F58FAC1F0B1855004BDBC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = FLEXium;
+				TargetAttributes = {
+					54F58FB31F0B1855004BDBC7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					54F58FCC1F0B1855004BDBC7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 54F58FB31F0B1855004BDBC7;
+					};
+					54F58FD71F0B1855004BDBC7 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 54F58FB31F0B1855004BDBC7;
+					};
+				};
+			};
+			buildConfigurationList = 54F58FAF1F0B1855004BDBC7 /* Build configuration list for PBXProject "InfraPhotoupload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54F58FAB1F0B1855004BDBC7;
+			productRefGroup = 54F58FB51F0B1855004BDBC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54F58FB31F0B1855004BDBC7 /* InfraPhotoupload */,
+				54F58FCC1F0B1855004BDBC7 /* InfraPhotouploadTests */,
+				54F58FD71F0B1855004BDBC7 /* InfraPhotouploadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54F58FB21F0B1855004BDBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F58FC71F0B1855004BDBC7 /* LaunchScreen.storyboard in Resources */,
+				54F58FC41F0B1855004BDBC7 /* Assets.xcassets in Resources */,
+				54F58FC21F0B1855004BDBC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F58FCB1F0B1855004BDBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F58FD61F0B1855004BDBC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54F58FB01F0B1855004BDBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F58FBF1F0B1855004BDBC7 /* ViewController.m in Sources */,
+				54F58FBC1F0B1855004BDBC7 /* AppDelegate.m in Sources */,
+				54F58FB91F0B1855004BDBC7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F58FC91F0B1855004BDBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F58FD21F0B1855004BDBC7 /* InfraPhotouploadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54F58FD41F0B1855004BDBC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54F58FDD1F0B1855004BDBC7 /* InfraPhotouploadUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54F58FCF1F0B1855004BDBC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F58FB31F0B1855004BDBC7 /* InfraPhotoupload */;
+			targetProxy = 54F58FCE1F0B1855004BDBC7 /* PBXContainerItemProxy */;
+		};
+		54F58FDA1F0B1855004BDBC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54F58FB31F0B1855004BDBC7 /* InfraPhotoupload */;
+			targetProxy = 54F58FD91F0B1855004BDBC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54F58FC01F0B1855004BDBC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F58FC11F0B1855004BDBC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54F58FC51F0B1855004BDBC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54F58FC61F0B1855004BDBC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54F58FDF1F0B1855004BDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		54F58FE01F0B1855004BDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54F58FE21F0B1855004BDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfraPhotoupload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotoupload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54F58FE31F0B1855004BDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InfraPhotoupload/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotoupload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54F58FE51F0B1855004BDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfraPhotouploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotouploadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfraPhotoupload.app/InfraPhotoupload";
+			};
+			name = Debug;
+		};
+		54F58FE61F0B1855004BDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = InfraPhotouploadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotouploadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfraPhotoupload.app/InfraPhotoupload";
+			};
+			name = Release;
+		};
+		54F58FE81F0B1855004BDBC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InfraPhotouploadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotouploadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InfraPhotoupload;
+			};
+			name = Debug;
+		};
+		54F58FE91F0B1855004BDBC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = InfraPhotouploadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotouploadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = InfraPhotoupload;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54F58FAF1F0B1855004BDBC7 /* Build configuration list for PBXProject "InfraPhotoupload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F58FDF1F0B1855004BDBC7 /* Debug */,
+				54F58FE01F0B1855004BDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54F58FE11F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotoupload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F58FE21F0B1855004BDBC7 /* Debug */,
+				54F58FE31F0B1855004BDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F58FE41F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotouploadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F58FE51F0B1855004BDBC7 /* Debug */,
+				54F58FE61F0B1855004BDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		54F58FE71F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotouploadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54F58FE81F0B1855004BDBC7 /* Debug */,
+				54F58FE91F0B1855004BDBC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54F58FAC1F0B1855004BDBC7 /* Project object */;
+}
