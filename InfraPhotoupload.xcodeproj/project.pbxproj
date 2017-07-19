@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5451E5741F13644400C40FAA /* shipin.png in Resources */ = {isa = PBXBuildFile; fileRef = 5451E5731F13644400C40FAA /* shipin.png */; };
+		5451E5761F1374C600C40FAA /* updatevideo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5451E5751F1374C600C40FAA /* updatevideo.png */; };
+		5465EC2E1F0DF0380035441F /* delete.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5465EC2D1F0DF0380035441F /* delete.jpg */; };
+		5465EC301F0DF1AD0035441F /* delete2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5465EC2F1F0DF1AD0035441F /* delete2.png */; };
+		54AC38101F0C788F0075240A /* PhotosUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54AC380F1F0C788F0075240A /* PhotosUI.framework */; };
 		54F58FB91F0B1855004BDBC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FB81F0B1855004BDBC7 /* main.m */; };
 		54F58FBC1F0B1855004BDBC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */; };
 		54F58FBF1F0B1855004BDBC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FBE1F0B1855004BDBC7 /* ViewController.m */; };
@@ -15,6 +20,21 @@
 		54F58FC71F0B1855004BDBC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54F58FC51F0B1855004BDBC7 /* LaunchScreen.storyboard */; };
 		54F58FD21F0B1855004BDBC7 /* InfraPhotouploadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FD11F0B1855004BDBC7 /* InfraPhotouploadTests.m */; };
 		54F58FDD1F0B1855004BDBC7 /* InfraPhotouploadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FDC1F0B1855004BDBC7 /* InfraPhotouploadUITests.m */; };
+		54F58FFE1F0B248A004BDBC7 /* TZAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FEC1F0B248A004BDBC7 /* TZAssetCell.m */; };
+		54F58FFF1F0B248A004BDBC7 /* TZAssetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FEE1F0B248A004BDBC7 /* TZAssetModel.m */; };
+		54F590001F0B248A004BDBC7 /* TZImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FF01F0B248A004BDBC7 /* TZImageManager.m */; };
+		54F590011F0B248A004BDBC7 /* TZImagePickerController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 54F58FF11F0B248A004BDBC7 /* TZImagePickerController.bundle */; };
+		54F590021F0B248A004BDBC7 /* TZImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FF31F0B248A004BDBC7 /* TZImagePickerController.m */; };
+		54F590031F0B248A004BDBC7 /* TZPhotoPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FF51F0B248A004BDBC7 /* TZPhotoPickerController.m */; };
+		54F590041F0B248A004BDBC7 /* TZPhotoPreviewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FF71F0B248A004BDBC7 /* TZPhotoPreviewCell.m */; };
+		54F590051F0B248A004BDBC7 /* TZPhotoPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FF91F0B248A004BDBC7 /* TZPhotoPreviewController.m */; };
+		54F590061F0B248A004BDBC7 /* TZVideoPlayerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FFB1F0B248A004BDBC7 /* TZVideoPlayerController.m */; };
+		54F590071F0B248A004BDBC7 /* UIView+Layout.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F58FFD1F0B248A004BDBC7 /* UIView+Layout.m */; };
+		54F5900A1F0B2891004BDBC7 /* 上传.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F590081F0B2891004BDBC7 /* 上传.png */; };
+		54F5900B1F0B2891004BDBC7 /* 拍照.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F590091F0B2891004BDBC7 /* 拍照.png */; };
+		54F5900E1F0B2A26004BDBC7 /* 上传3.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F5900D1F0B2A26004BDBC7 /* 上传3.png */; };
+		54F590101F0B82AA004BDBC7 /* logo-flexium.png in Resources */ = {isa = PBXBuildFile; fileRef = 54F5900F1F0B82AA004BDBC7 /* logo-flexium.png */; };
+		54F590121F0B8587004BDBC7 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F590111F0B8587004BDBC7 /* Photos.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +55,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54F58FB41F0B1855004BDBC7 /* InfraPhotoupload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfraPhotoupload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5451E5731F13644400C40FAA /* shipin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shipin.png; sourceTree = "<group>"; };
+		5451E5751F1374C600C40FAA /* updatevideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = updatevideo.png; sourceTree = "<group>"; };
+		5465EC2D1F0DF0380035441F /* delete.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = delete.jpg; sourceTree = "<group>"; };
+		5465EC2F1F0DF1AD0035441F /* delete2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete2.png; sourceTree = "<group>"; };
+		54AC380F1F0C788F0075240A /* PhotosUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PhotosUI.framework; path = System/Library/Frameworks/PhotosUI.framework; sourceTree = SDKROOT; };
+		54F58FB41F0B1855004BDBC7 /* 照片上傳.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "照片上傳.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F58FB81F0B1855004BDBC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54F58FBA1F0B1855004BDBC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +76,30 @@
 		54F58FD81F0B1855004BDBC7 /* InfraPhotouploadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfraPhotouploadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		54F58FDC1F0B1855004BDBC7 /* InfraPhotouploadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfraPhotouploadUITests.m; sourceTree = "<group>"; };
 		54F58FDE1F0B1855004BDBC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54F58FEB1F0B248A004BDBC7 /* TZAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetCell.h; sourceTree = "<group>"; };
+		54F58FEC1F0B248A004BDBC7 /* TZAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetCell.m; sourceTree = "<group>"; };
+		54F58FED1F0B248A004BDBC7 /* TZAssetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZAssetModel.h; sourceTree = "<group>"; };
+		54F58FEE1F0B248A004BDBC7 /* TZAssetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZAssetModel.m; sourceTree = "<group>"; };
+		54F58FEF1F0B248A004BDBC7 /* TZImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImageManager.h; sourceTree = "<group>"; };
+		54F58FF01F0B248A004BDBC7 /* TZImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImageManager.m; sourceTree = "<group>"; };
+		54F58FF11F0B248A004BDBC7 /* TZImagePickerController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TZImagePickerController.bundle; sourceTree = "<group>"; };
+		54F58FF21F0B248A004BDBC7 /* TZImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZImagePickerController.h; sourceTree = "<group>"; };
+		54F58FF31F0B248A004BDBC7 /* TZImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZImagePickerController.m; sourceTree = "<group>"; };
+		54F58FF41F0B248A004BDBC7 /* TZPhotoPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPickerController.h; sourceTree = "<group>"; };
+		54F58FF51F0B248A004BDBC7 /* TZPhotoPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPickerController.m; sourceTree = "<group>"; };
+		54F58FF61F0B248A004BDBC7 /* TZPhotoPreviewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewCell.h; sourceTree = "<group>"; };
+		54F58FF71F0B248A004BDBC7 /* TZPhotoPreviewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewCell.m; sourceTree = "<group>"; };
+		54F58FF81F0B248A004BDBC7 /* TZPhotoPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZPhotoPreviewController.h; sourceTree = "<group>"; };
+		54F58FF91F0B248A004BDBC7 /* TZPhotoPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZPhotoPreviewController.m; sourceTree = "<group>"; };
+		54F58FFA1F0B248A004BDBC7 /* TZVideoPlayerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZVideoPlayerController.h; sourceTree = "<group>"; };
+		54F58FFB1F0B248A004BDBC7 /* TZVideoPlayerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZVideoPlayerController.m; sourceTree = "<group>"; };
+		54F58FFC1F0B248A004BDBC7 /* UIView+Layout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Layout.h"; sourceTree = "<group>"; };
+		54F58FFD1F0B248A004BDBC7 /* UIView+Layout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Layout.m"; sourceTree = "<group>"; };
+		54F590081F0B2891004BDBC7 /* 上传.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传.png"; sourceTree = "<group>"; };
+		54F590091F0B2891004BDBC7 /* 拍照.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "拍照.png"; sourceTree = "<group>"; };
+		54F5900D1F0B2A26004BDBC7 /* 上传3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "上传3.png"; sourceTree = "<group>"; };
+		54F5900F1F0B82AA004BDBC7 /* logo-flexium.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-flexium.png"; sourceTree = "<group>"; };
+		54F590111F0B8587004BDBC7 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +107,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54AC38101F0C788F0075240A /* PhotosUI.framework in Frameworks */,
+				54F590121F0B8587004BDBC7 /* Photos.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,9 +129,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54AC38111F0C9B210075240A /* 系统包 */ = {
+			isa = PBXGroup;
+			children = (
+				54AC380F1F0C788F0075240A /* PhotosUI.framework */,
+				54F590111F0B8587004BDBC7 /* Photos.framework */,
+			);
+			name = "系统包";
+			sourceTree = "<group>";
+		};
+		54AC38121F0C9B310075240A /* appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FBA1F0B1855004BDBC7 /* AppDelegate.h */,
+				54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */,
+			);
+			name = appdelegate;
+			sourceTree = "<group>";
+		};
+		54AC38131F0C9B400075240A /* 主界面 */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FBD1F0B1855004BDBC7 /* ViewController.h */,
+				54F58FBE1F0B1855004BDBC7 /* ViewController.m */,
+				54F58FC01F0B1855004BDBC7 /* Main.storyboard */,
+			);
+			name = "主界面";
+			sourceTree = "<group>";
+		};
+		54AC38141F0C9B4E0075240A /* other */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FC31F0B1855004BDBC7 /* Assets.xcassets */,
+				54F58FC51F0B1855004BDBC7 /* LaunchScreen.storyboard */,
+				54F58FC81F0B1855004BDBC7 /* Info.plist */,
+			);
+			name = other;
+			sourceTree = "<group>";
+		};
 		54F58FAB1F0B1855004BDBC7 = {
 			isa = PBXGroup;
 			children = (
+				54AC38111F0C9B210075240A /* 系统包 */,
 				54F58FB61F0B1855004BDBC7 /* InfraPhotoupload */,
 				54F58FD01F0B1855004BDBC7 /* InfraPhotouploadTests */,
 				54F58FDB1F0B1855004BDBC7 /* InfraPhotouploadUITests */,
@@ -91,7 +181,7 @@
 		54F58FB51F0B1855004BDBC7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				54F58FB41F0B1855004BDBC7 /* InfraPhotoupload.app */,
+				54F58FB41F0B1855004BDBC7 /* 照片上傳.app */,
 				54F58FCD1F0B1855004BDBC7 /* InfraPhotouploadTests.xctest */,
 				54F58FD81F0B1855004BDBC7 /* InfraPhotouploadUITests.xctest */,
 			);
@@ -101,14 +191,11 @@
 		54F58FB61F0B1855004BDBC7 /* InfraPhotoupload */ = {
 			isa = PBXGroup;
 			children = (
-				54F58FBA1F0B1855004BDBC7 /* AppDelegate.h */,
-				54F58FBB1F0B1855004BDBC7 /* AppDelegate.m */,
-				54F58FBD1F0B1855004BDBC7 /* ViewController.h */,
-				54F58FBE1F0B1855004BDBC7 /* ViewController.m */,
-				54F58FC01F0B1855004BDBC7 /* Main.storyboard */,
-				54F58FC31F0B1855004BDBC7 /* Assets.xcassets */,
-				54F58FC51F0B1855004BDBC7 /* LaunchScreen.storyboard */,
-				54F58FC81F0B1855004BDBC7 /* Info.plist */,
+				54F5900C1F0B2899004BDBC7 /* image */,
+				54AC38121F0C9B310075240A /* appdelegate */,
+				54AC38131F0C9B400075240A /* 主界面 */,
+				54F58FEA1F0B248A004BDBC7 /* TZImagePickerController */,
+				54AC38141F0C9B4E0075240A /* other */,
 				54F58FB71F0B1855004BDBC7 /* Supporting Files */,
 			);
 			path = InfraPhotoupload;
@@ -140,6 +227,47 @@
 			path = InfraPhotouploadUITests;
 			sourceTree = "<group>";
 		};
+		54F58FEA1F0B248A004BDBC7 /* TZImagePickerController */ = {
+			isa = PBXGroup;
+			children = (
+				54F58FEB1F0B248A004BDBC7 /* TZAssetCell.h */,
+				54F58FEC1F0B248A004BDBC7 /* TZAssetCell.m */,
+				54F58FED1F0B248A004BDBC7 /* TZAssetModel.h */,
+				54F58FEE1F0B248A004BDBC7 /* TZAssetModel.m */,
+				54F58FEF1F0B248A004BDBC7 /* TZImageManager.h */,
+				54F58FF01F0B248A004BDBC7 /* TZImageManager.m */,
+				54F58FF11F0B248A004BDBC7 /* TZImagePickerController.bundle */,
+				54F58FF21F0B248A004BDBC7 /* TZImagePickerController.h */,
+				54F58FF31F0B248A004BDBC7 /* TZImagePickerController.m */,
+				54F58FF41F0B248A004BDBC7 /* TZPhotoPickerController.h */,
+				54F58FF51F0B248A004BDBC7 /* TZPhotoPickerController.m */,
+				54F58FF61F0B248A004BDBC7 /* TZPhotoPreviewCell.h */,
+				54F58FF71F0B248A004BDBC7 /* TZPhotoPreviewCell.m */,
+				54F58FF81F0B248A004BDBC7 /* TZPhotoPreviewController.h */,
+				54F58FF91F0B248A004BDBC7 /* TZPhotoPreviewController.m */,
+				54F58FFA1F0B248A004BDBC7 /* TZVideoPlayerController.h */,
+				54F58FFB1F0B248A004BDBC7 /* TZVideoPlayerController.m */,
+				54F58FFC1F0B248A004BDBC7 /* UIView+Layout.h */,
+				54F58FFD1F0B248A004BDBC7 /* UIView+Layout.m */,
+			);
+			path = TZImagePickerController;
+			sourceTree = "<group>";
+		};
+		54F5900C1F0B2899004BDBC7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5451E5751F1374C600C40FAA /* updatevideo.png */,
+				5451E5731F13644400C40FAA /* shipin.png */,
+				5465EC2F1F0DF1AD0035441F /* delete2.png */,
+				5465EC2D1F0DF0380035441F /* delete.jpg */,
+				54F5900F1F0B82AA004BDBC7 /* logo-flexium.png */,
+				54F5900D1F0B2A26004BDBC7 /* 上传3.png */,
+				54F590081F0B2891004BDBC7 /* 上传.png */,
+				54F590091F0B2891004BDBC7 /* 拍照.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,7 +285,7 @@
 			);
 			name = InfraPhotoupload;
 			productName = InfraPhotoupload;
-			productReference = 54F58FB41F0B1855004BDBC7 /* InfraPhotoupload.app */;
+			productReference = 54F58FB41F0B1855004BDBC7 /* 照片上傳.app */;
 			productType = "com.apple.product-type.application";
 		};
 		54F58FCC1F0B1855004BDBC7 /* InfraPhotouploadTests */ = {
@@ -207,6 +335,7 @@
 				TargetAttributes = {
 					54F58FB31F0B1855004BDBC7 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = J57888S29T;
 					};
 					54F58FCC1F0B1855004BDBC7 = {
 						CreatedOnToolsVersion = 7.3;
@@ -243,9 +372,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54F5900E1F0B2A26004BDBC7 /* 上传3.png in Resources */,
+				5465EC301F0DF1AD0035441F /* delete2.png in Resources */,
+				54F5900A1F0B2891004BDBC7 /* 上传.png in Resources */,
+				54F5900B1F0B2891004BDBC7 /* 拍照.png in Resources */,
+				5451E5741F13644400C40FAA /* shipin.png in Resources */,
+				54F590101F0B82AA004BDBC7 /* logo-flexium.png in Resources */,
 				54F58FC71F0B1855004BDBC7 /* LaunchScreen.storyboard in Resources */,
+				54F590011F0B248A004BDBC7 /* TZImagePickerController.bundle in Resources */,
+				5451E5761F1374C600C40FAA /* updatevideo.png in Resources */,
 				54F58FC41F0B1855004BDBC7 /* Assets.xcassets in Resources */,
 				54F58FC21F0B1855004BDBC7 /* Main.storyboard in Resources */,
+				5465EC2E1F0DF0380035441F /* delete.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +409,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F58FBF1F0B1855004BDBC7 /* ViewController.m in Sources */,
+				54F590001F0B248A004BDBC7 /* TZImageManager.m in Sources */,
 				54F58FBC1F0B1855004BDBC7 /* AppDelegate.m in Sources */,
+				54F590051F0B248A004BDBC7 /* TZPhotoPreviewController.m in Sources */,
+				54F590041F0B248A004BDBC7 /* TZPhotoPreviewCell.m in Sources */,
+				54F590021F0B248A004BDBC7 /* TZImagePickerController.m in Sources */,
+				54F58FFF1F0B248A004BDBC7 /* TZAssetModel.m in Sources */,
+				54F58FFE1F0B248A004BDBC7 /* TZAssetCell.m in Sources */,
+				54F590071F0B248A004BDBC7 /* UIView+Layout.m in Sources */,
+				54F590061F0B248A004BDBC7 /* TZVideoPlayerController.m in Sources */,
+				54F590031F0B248A004BDBC7 /* TZPhotoPickerController.m in Sources */,
 				54F58FB91F0B1855004BDBC7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -413,10 +560,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = InfraPhotoupload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotoupload;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "照片上傳";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -424,10 +575,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = InfraPhotoupload/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.FLEXium.InfraPhotoupload;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "照片上傳";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -496,6 +651,7 @@
 				54F58FE31F0B1855004BDBC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F58FE41F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotouploadTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +660,7 @@
 				54F58FE61F0B1855004BDBC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		54F58FE71F0B1855004BDBC7 /* Build configuration list for PBXNativeTarget "InfraPhotouploadUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +669,7 @@
 				54F58FE91F0B1855004BDBC7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
